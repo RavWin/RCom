@@ -1,6 +1,7 @@
 # RCom
-Serial Terminal with minimalistic interface
-Component dependencies are:
+Serial Terminal with minimalistic interface<br/>
+Component dependencies are:<br/>
 *Rled (RaJa Led)
 *ComPort Library
-![RCom Screen](https://github.com/RavWin/RCom/RCom.png)
+<br/>
+![RCom Screen](https://raw.githubusercontent.com/RavWin/RCom/master/RCom.PNG)
