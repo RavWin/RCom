@@ -1,0 +1,19 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
+        <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
+        <DCC_ExeOutput>RUSB-CANd</DCC_ExeOutput>
+        <DCC_DcuOutput>dcu</DCC_DcuOutput>
+        <VerInfo_MajorVer>2</VerInfo_MajorVer>
+        <VerInfo_Build>27</VerInfo_Build>
+        <VerInfo_Keys>CompanyName=Ravenium Software;FileDescription=$(MSBuildProjectName);FileVersion=2.0.0.27;InternalName=;LegalCopyright=© 2011-2021, Andrew Kambaroff a.k.a. RaJa;LegalTrademarks=;OriginalFilename=;ProductName=$(MSBuildProjectName);ProductVersion=2.0.0.0;Comments=;ProgramID=com.embarcadero.$(MSBuildProjectName)</VerInfo_Keys>
+    </PropertyGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType>OptionSet</Borland.ProjectType>
+        <BorlandProject>
+            <Delphi.Personality/>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+</Project>

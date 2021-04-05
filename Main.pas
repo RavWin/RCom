@@ -119,7 +119,10 @@ end;
 
 procedure TfTTY.eTestKeyPress(Sender: TObject; var Key: Char);
 begin
- if Key=#13 then bSendClick(Self);
+ if Key=#13 then begin
+  key := #0;
+  bSendClick(Self);
+ end;
 end;
 
 procedure TfTTY.FormCreate(Sender: TObject);

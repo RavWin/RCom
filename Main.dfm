@@ -100,10 +100,10 @@ object fTTY: TfTTY
       Height = 21
       ComPort = com1
       ComProperty = cpPort
-      Text = 'COM1'
+      Text = ''
       Style = csDropDownList
       ImeName = 'Russian'
-      ItemIndex = 0
+      ItemIndex = -1
       TabOrder = 0
       OnDropDown = cbPortDropDown
     end
@@ -207,7 +207,6 @@ object fTTY: TfTTY
     TabOrder = 1
     WantTab = True
     OnDblClick = ctTermDblClick
-    ExplicitHeight = 437
   end
   object com1: TComPort
     BaudRate = br115200
